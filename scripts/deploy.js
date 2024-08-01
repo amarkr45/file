@@ -1,7 +1,7 @@
 const hre = require("hardhat");
 
 async function main() {
-  const contract = await hre.ethers.deployContract("Swisstronik", ["Hello Swisstronik from feature_earning!!"]);
+  const contract = await hre.ethers.deployContract("Swisstronik", ["Hello Swisstronik from Ga Crypto!!"]);
   await contract.waitForDeployment();
   console.log(`Swisstronik contract deployed to ${contract.target}`);
 }
